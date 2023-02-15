@@ -1,0 +1,17 @@
+{
+  "title": "high-risk 网上银行每日高风险交易设置变化报表",
+  "tableData": [{
+    "companyType": "1",
+    "companyEbankCsNo": "1",
+    "startStopTime": "1",
+    "optionType": "1",
+    "lastTime": "1",
+    "operator": "1",
+    "operatorType": "1"
+  }],
+  "total": "1",
+  "SAStart": "0",
+  "SAStop": "0",
+  "MAMStart": "0",
+  "MAMStop": "0"
+}

@@ -1,0 +1,70 @@
+/*
+ * @Author: your name
+ * @Date: 2022-11-01 14:45:50
+ * @LastEditTime: 2022-11-10 14:08:23
+ * @LastEditors: Please set LastEditors
+ * @Description: In User Settings Edit
+ * @FilePath: \ss-cibs-prc-custpc\src\i18n\speacialInstruction\en.js
+ */
+export default {
+	SPECIAL_INSTRUACTION:{
+		SPECIAL_ORDER_APPLICATION:"特殊指令遞交申請 ",
+		INTERESTED_TOAPPLY:" 如閣下欲申請以下服務，請先列印所需表格並以黑色或藍色原子筆填妥表格和簽署，然後上載至本行網站，全程無須親臨分行。本行將會致電已登記的聯絡電話核對資料，敬請留意來電。有關申請必須通過核對及審批後，方可正式處理。如有查詢，請致電本行客戶服務熱線：(852) 3768 8888。",
+		REQUIRED_SERVICE:"所需服務",
+		SERVICE_DESCRIPTION:"服務描述",
+		TWO_SERVCIE_SETTING:"雙重認證服務設定",
+		ACTIVATE:"啟動/更改/停用雙重認證服務及以短訊接收一次性密碼",
+		BENEFICIARY_SETTING:"收款人設定",
+		TELEGRAPHIC_TRANSFER:"登記/取消登記第三者賬戶/電匯收款人",
+		LIMIT_SETTING:"交易限額設定",
+		CHANGE_TRANSACTION:"更改網上轉賬/電匯/繳付賬單交易限額",
+		LOAN_REPAYMENT:"貸款還款",
+		LOAN_REPAYMENTS:"貸款還款",
+		MANAGED_DIRECTIVES:"託管指令",
+		SAME_NAME:"同名賬戶定期存款辦理",
+		SAME_NAMES:"同名賬戶定期存款辦理、更改到期日指示、定期存款利息提升、定期存款到期轉存至同名賬戶",
+		FUND_TRANSFER:"同名賬戶資金劃轉",
+		LOAN_WITHDRAWAL:"貸款提款",
+		OTHERS:"其他",
+		SACN_THE_COMPLETED:"請把已填妥的申請表格（包含表格的每一頁）掃描至同一個檔案內。上載完成後，您將無法進行任何更改。",
+		APPLICATION_INFORMATION:"申請資料",
+		ENGLISH_NAME:"聯絡人英文姓名",
+		MOBILE_PHONE_NUMBER:"流動電話號碼",
+		EMAIL:"聯絡電郵",
+		NOTE:"注：",
+		AFTER_SUBMITTING:"提交申請後, 本行將會聯絡 貴公司的授權簽署人士確認有關指示。",
+		READ:"本人確認已閱讀、明白及同意 貴行之 ",
+		PERSONAL_INFORMATION:"收集個人資料聲明",
+		AND:"及 ",
+		DISCLAIMER:"重要聲明",
+		DOCUMENT_UPLOAD:"上載文件",
+		UPLOAD_DOCUMENT:"請上載符合以下條件之檔案﹕",
+		FILE_FORMAT:"1檔案格式: JPEG, PDF, GIF 或 PNG",
+		MAXIMUN_SIZE:"2每個檔案最大為 5MB",
+		MAXIMUN_UPLOAD:"3最多上載3個檔案",
+		FILE_NALE:"4檔案名稱不能包含空格或符號(例如 &, % 或 $)",
+		APPLICATION_FROM:"5請把已填妥的申請表格（包含表格的每一頁）掃描至同一個檔案內。上載完成後，您將無法進行任何更改。",
+		SELECT_FILE:"選取檔案",
+		IMPORTANT:"重要提示：",
+		SERCURITY_SERVICE:"	1.有關本行網站、網上銀行和手機銀行的安全提示信息，請",
+		HERE:"按此",
+		BANK_DISCLAMER:" 2.有關本行的重要聲明，請",
+		BANK_PERSONALINFORMATION:"3.有關本行的收集個人資料聲明，請",
+		BANK_PRIVCK:"4.有關本行的私隱政策聲明，請",
+		MADATRORY:"* 必須填寫",
+		SUBMIT:"提交",
+		BROWSE:"瀏覽",
+		add:"添加特殊指令",
+		STEP_ONE:"步驟一",
+		STEP_TWO:"步驟二",
+		STEP_THREE:"步驟三",
+		CONFIRM_OTP:"請核對以下資料準確無誤。",
+		UPLOAD_NAME:"檔案名稱不能包含空格或符號(例如 &，% 或 $)",
+		MUST_CONFIRM:"您必須確認上述資料",
+		LEST_FILE:"請上載不少於一個檔案",
+		RMUSER_NAME:"個人客戶需于14個工作天把表格正本郵寄至所屬之客戶經理。",
+		VALIDATE_EMAL:"請輸入有效的電郵地址",
+		VALIDATE_PHONE:"請輸入8至15位數字的流動電話號碼",
+		
+	}
+}

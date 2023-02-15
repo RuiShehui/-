@@ -1,0 +1,105 @@
+.contain {
+  min-width: 600px;
+  min-height: 100%;
+  background: #fff;
+  padding: 32px 24px;
+  box-sizing: border-box;
+  position: relative;
+}
+.transverse-form {
+  display: flex;
+  flex-wrap: wrap;
+  .el-form-item {
+    display: flex;
+    margin-right: 40px;
+    ::v-deep .el-form-item__content {
+      margin-left: 0px !important;
+    }
+  }
+}
+.g-bolck {
+  text-align: right;
+  margin-top: 32px;
+  padding: 0 20px;
+}
+
+.f-w-270 {
+  width: 270px;
+}
+.my-dialog {
+  .center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    margin: 0 20px 24px;
+    font-size: 16px;
+    color: #323c41;
+  }
+  ::v-deep .el-dialog__body {
+    padding: 0px;
+  }
+  ::v-deep .el-dialog__footer {
+    padding: 0px 0px 32px 0px;
+  }
+}
+.btn {
+  display: inline-block;
+  cursor: pointer;
+}
+.f-delete {
+  margin-left: 10px;
+  color: #e34141;
+}
+.f-add {
+  color: #f06b00;
+}
+
+.mg-40{
+  margin-top: 40px;
+}
+.mg-17{
+  margin-top: 17px;
+}
+.g-bottom {
+  width: 100%;
+  margin-top: 40px;
+  text-align: center;
+  button {
+    width: 210px;
+    height: 40px;
+    border-radius: 4px;
+    font-size: 18px;
+  }
+  .f-cancel {
+    color: #f06b00;
+    border-color: #f06b00;
+  }
+  .f-reset {
+    color: rgba(0, 0, 0, 0.45);
+    border-color: rgba(0, 0, 0, 0.45);
+  }
+}
+.symbol{
+  width: 30px;
+  text-align: center;
+  font-size: 30px;
+  cursor: pointer;
+}
+.table-title{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  >div:nth-of-type(1) {
+    color: rgba(0, 0, 0, 0.45);
+  }
+}
+.mg-8{
+  margin-top: 8px;
+}
+.g-download-btn {
+  color: #4181fa;
+  cursor: pointer;
+}

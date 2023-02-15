@@ -1,0 +1,144 @@
+.isIE {
+  .el-icon-message {
+    width: 24px;
+    height: 24px;
+    background-image: url("./images/element-icons/message.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    &::before {
+      content: " ";
+      visibility: hidden;
+    }
+  }
+
+  .el-icon-arrow-down {
+    width: 14px;
+    height: 14px;
+    background-image: url("./images/element-icons/arrow-down.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    &::before {
+      content: " ";
+      visibility: hidden;
+    }
+  }
+
+  .el-icon-arrow-up {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &::before {
+      content: " ";
+      width: 14px;
+      height: 14px;
+      display: block;
+      background-image: url("./images/element-icons/arrow-up.png");
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+  }
+
+  .el-icon-date {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &::before {
+      content: " ";
+      width: 14px;
+      height: 14px;
+      display: block;
+      background-image: url("./images/element-icons/date.png");
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+  }
+
+  .el-icon-circle-close {
+    &::before {
+      content: " ";
+      width: 14px;
+      height: 14px;
+      display: block;
+      background-image: url("./images/element-icons/circle-close.png");
+      background-size: cover;
+      background-repeat: no-repeat;
+      margin-top: 10px;
+    }
+  }
+
+  .el-icon-menu {
+    &::before {
+      content: " ";
+      width: 18px;
+      height: 18px;
+      display: block;
+      background-image: url("./images/element-icons/menu.png");
+      background-size: cover;
+      background-repeat: no-repeat;
+      margin-top: 10px;
+    }
+  }
+
+  .el-icon-d-arrow-left {
+    width: 12px;
+    height: 12px;
+    background-image: url("./images/element-icons/d-arrow-left.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    &::before {
+      content: " ";
+      visibility: hidden;
+    }
+  }
+
+  .el-icon-arrow-left {
+    width: 12px;
+    height: 12px;
+    background-image: url("./images/element-icons/arrow-left.png") !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    &::before {
+      content: " ";
+      visibility: hidden;
+    }
+  }
+
+  .el-icon-d-arrow-right {
+    width: 12px;
+    height: 12px;
+    background-image: url("./images/element-icons/d-arrow-right.png") !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    &::before {
+      content: " ";
+      visibility: hidden;
+    }
+  }
+
+  .el-icon-arrow-right {
+    width: 12px;
+    height: 12px;
+    background-image: url("./images/element-icons/arrow-right.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    &::before {
+      content: " ";
+      visibility: hidden;
+    }
+  }
+
+  .el-table__header {
+    min-width: 100% !important;
+  }
+  .el-table__body {
+    min-width: 100% !important;
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"],
+      "@bank-transfer/*": ["./src/views/bankTransfer/*"],
+      "@auth/*": ["./src/views/authorizeCenter/*"]
+    }
+  },
+  "exclude": ["node_modules", "dist"]
+}

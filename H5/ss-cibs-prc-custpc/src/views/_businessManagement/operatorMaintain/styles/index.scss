@@ -1,0 +1,293 @@
+.operator {
+  .header {
+    .btnArea {
+      display: flex;
+      margin-left: 60px;
+    }
+  }
+
+  .content {
+    margin-top: 60px;
+
+    .labStyle {
+      color: #333333;
+      font-weight: bold;
+      border-bottom: none;
+      background: #FAFAFA;
+    }
+
+    .handle span {
+      color: #F57E00;
+      cursor: pointer;
+      margin-right: 5px;
+    }
+
+    .confirmTips {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      p {
+        font-size: 14px;
+        color: #999999;
+        padding-bottom: 10px;
+      }
+
+      .btn {
+        padding-top: 20px;
+        padding-bottom: 30px;
+      }
+    }
+  }
+
+  .operatorDialog {
+    .dial {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      img {
+        width: 44px;
+        height: 44px;
+      }
+
+      .title {
+        font-size: 16px;
+        color: #323C41;
+        font-weight: bold;
+        padding: 20px 0;
+      }
+
+      .tips {
+        font-size: 14px;
+        color: #999999;
+      }
+
+      .btn {
+        display: flex;
+        padding: 30px 0;
+      }
+    }
+  }
+}
+
+.amend {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .modify {
+    .btn {
+      display: flex;
+      padding: 30px 0;
+    }
+  }
+
+  .conf {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    .content {
+      width: 240px;
+      line-height: 40px;
+      text-align: left;
+    }
+
+    .btn {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 30px 0;
+    }
+  }
+
+  .resPic {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    img {
+      width: 77px;
+      height: 76px;
+      padding-bottom: 30px;
+    }
+
+    p {
+      font-size: 20px;
+      color: #333333;
+      font-weight: bold;
+      padding-bottom: 50px;
+    }
+  }
+
+}
+
+.newOperator {
+  .add {
+    .el-steps {
+      display: unset;
+    }
+
+    .service .labelClass,
+    .account .labelClass,
+    .confirm .labelClass {
+      color: #333333;
+      font-weight: bold;
+      border-bottom: none;
+      background: #FAFAFA;
+    }
+
+    .basicInfo {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      .form {
+        .btn {
+          display: flex;
+          margin: 20px 0;
+        }
+      }
+    }
+
+    .service {
+      .tableClass {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      }
+
+      .page {
+        width: 600px;
+        margin-left: 180px;
+      }
+    }
+
+    .service .btn,
+    .account .btn,
+    .confirm .btn,
+    .finish .btn {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 20px 0;
+    }
+
+    .account {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .confirm {
+      .head {
+        display: flex;
+
+        .headPic {
+          width: 4px;
+          height: 24px;
+          background: #FA9224;
+          border-radius: 8px;
+        }
+
+        .title {
+          padding-left: 10px;
+          font-weight: bold;
+        }
+      }
+
+      .formInfo {
+
+        .el-form-item {
+          margin-bottom: 10px;
+        }
+
+        .basicTitle {
+          font-size: 20px;
+          font-weight: bold;
+        }
+
+        .content {
+          width: 300px;
+          line-height: 40px;
+        }
+      }
+
+      .service {
+        margin-bottom: 10px;
+
+        .title {
+          font-weight: bold;
+          margin-bottom: 10px;
+        }
+      }
+
+      .power {
+        margin-bottom: 10px;
+
+        .title {
+          font-weight: bold;
+          margin-bottom: 10px;
+        }
+      }
+    }
+
+    .finish {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      .details {
+        .pictrue {
+          margin-bottom: 20px;
+          display: flex;
+          justify-content: center;
+
+          img {
+            width: 90px;
+            height: 90px;
+          }
+        }
+
+        .title {
+          font-size: 20px;
+          color: #333333;
+          font-weight: bold;
+        }
+      }
+
+      .num {
+        font-weight: bold;
+        padding: 10px 0;
+      }
+
+      .notice {
+        color: #999999;
+      }
+    }
+  }
+
+  .footer {
+    position: relative;
+    bottom: 0;
+
+    .title {
+      font-size: 13px;
+      color: #333333;
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+
+    :nth-child(2),
+    :nth-last-child(1) {
+      font-size: 12px;
+      color: #999999;
+      margin-bottom: 5px;
+    }
+  }
+}

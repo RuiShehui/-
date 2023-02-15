@@ -1,0 +1,73 @@
+.g-business-setup {
+  padding: 32px 24px;
+  background: #fff;
+  min-height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+
+  // text-align: center;
+  .g-input,
+  .g-select {
+    width: 360px !important;
+    &.smaller {
+      width: 270px !important;
+    }
+  }
+  .g-select-all-btn {
+    width: 75px;
+    margin-left: 20px;
+    border: 0;
+  }
+
+  .g-form {
+    // margin: 0 32%;
+    width: 100%;
+
+    .el-button:hover,
+    .el-button:focus {
+      background: #f06b00 !important;
+      color: #ffffff;
+    }
+  }
+
+  .g-upload-wrapper {
+    width: 100%;
+
+    .g-upload-input {
+      display: inline-block;
+      width: 210px;
+    }
+
+    .g-upload-btn {
+      display: inline-block;
+      margin-left: 10px;
+      padding: 0;
+    }
+  }
+
+  .g-btn {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    // margin-top: 3.6%;
+    padding-bottom: 30px;
+
+    .g-op-btn {
+      width: 210px !important;
+      height: 40px;
+      border-radius: 4px !important;
+      font-size: 18px !important;
+      text-align: center;
+      border-color: #f06b00;
+      color: #f06b00;
+    }
+    .confirm {
+      background: #f06b00;
+      color: #ffffff;
+    }
+  }
+  .g-download-btn {
+    color: #4181fa;
+    cursor: pointer;
+  }
+}

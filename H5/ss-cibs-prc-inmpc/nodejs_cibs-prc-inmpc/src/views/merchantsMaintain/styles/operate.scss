@@ -1,0 +1,61 @@
+.contain {
+  min-width: 600px;
+  padding: 32px 24px;
+  background: #ffffff;
+  min-height: 100%;
+  box-sizing: border-box;
+}
+.g-table {
+  width: 100%;
+  margin: 10px;
+}
+.u-tabs {
+  margin: 40px 0;
+}
+.f-del {
+  color: #f06b00;
+}
+.f-add {
+  margin: 10px 0px 20px;
+  border: 1px solid #f06b00;
+  border-radius: 4px;
+  color: #f06b00;
+}
+.g-btn {
+  margin-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .el-button {
+    width: 210px;
+    height: 42px;
+    border: 1px solid #f06b00;
+    border-radius: 4px;
+  }
+  .cancel {
+    color: #f06b00;
+  }
+  .confirm {
+    background: #f06b00;
+    color: #fff;
+  }
+}
+
+.g-form-input, .g-form-select {
+  width: 340px;
+  &.short {
+    width: 180px;
+  }
+  &.mini {
+    width: 160px;
+  }
+}
+.el-table {
+  ::v-deep .cell {
+    padding: 12px 10px;
+  }
+  ::v-deep .el-table__cell {
+    padding: 0;
+  }
+}

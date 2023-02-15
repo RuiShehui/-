@@ -1,0 +1,20 @@
+{
+  "head": {
+    "returnCode": "000000",
+    "channel": "IN",
+    "returnMessage": "交易成功",
+    "succFlag": "0",
+    "lang": "zhCN",
+    "succMessage": "通讯成功"
+  },
+  "body": {
+    "payeeName": "shaufhaiojsgijaipgjewpj送给和萨和工人个ij加3再谁632",
+    "payeeAddress": "放好圣佛埃及欧根fpaisj4864684646发沙啊",
+    "payeeCountryCode": "HK",
+    "transType": "3",
+    "accountNo": "12345678003",
+    "swiftCode": "AAALSARIALK",
+    "ebankCstmNo": "1025936001",
+    "payeeCountryName": ""
+  }
+}

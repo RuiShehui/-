@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>3icon/16/wenjian</title>
+    <g id="3icon/16/wenjian" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon/上传" fill="#FFFFFF" opacity="0">
+            <rect id="矩形" x="0" y="0" width="16" height="16"></rect>
+        </g>
+        <rect id="矩形" stroke="#F06B00" x="2.5" y="2.5" width="11" height="13" rx="1"></rect>
+        <rect id="矩形" stroke="#F06B00" fill="#FFFFFF" x="4.5" y="1" width="7" height="3" rx="1.5"></rect>
+        <polyline id="路径-3" stroke="#F06B00" stroke-linecap="round" stroke-linejoin="round" points="5.33357442 8.80707911 7.18140682 10.7478325 11.1011567 7"></polyline>
+    </g>
+</svg>

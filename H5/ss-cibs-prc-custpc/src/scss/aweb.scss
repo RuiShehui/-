@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  // 缩放整体页面
+  // zoom:0.85;
+}
+
+body.el-loading-parent--relative {
+  position: inherit !important;
+}
+
+.must-input {
+  color: red;
+}
+
+.aweb-dialog__wrapper {
+  div.aweb-dialog {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .aweb-dialog__header {
+    padding: 12px 20px !important;
+    border-bottom: 1px solid #e5e5e5;
+
+    .span.aweb-dialog__title {
+      font-size: 14px;
+      color: #333;
+    }
+
+    .aweb-dialog__headerbtn {
+      top: 12px !important;
+    }
+  }
+
+  div.aweb-dialog__body {
+    padding-bottom: 50px;
+  }
+
+}
+
+.form-item-block {
+  width: 100%;
+  margin: 0 0 20px 0 !important;
+  height: 32px !important;
+
+  label.v2-form-label {
+    line-height: 32px;
+  }
+
+  .form-treeselect-ctn {
+    line-height: 32px;
+  }
+}
+
+.form-item-block .form-input-ctn {
+  line-height: 32px;
+}
+
+.form-item-block input {
+  height: 32px;
+  line-height: 32px;
+
+}

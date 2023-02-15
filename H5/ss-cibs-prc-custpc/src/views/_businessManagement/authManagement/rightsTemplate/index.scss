@@ -1,0 +1,28 @@
+.u-rightsTemplate {
+    // margin-top: 24px;
+    .el-table {
+        margin-top: 8px;
+        .headerClass {
+            background-color: #f3f3f3;
+        }
+    }
+    .u-btn {
+        color: #4181FA;
+    }
+    .temBtn {
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+        .addBtn {
+            margin-right: 10px;
+        }
+    }
+    /deep/ .common-button .white-w160 {
+        width: 210px;
+    }
+}
+
+.popop {
+    width: 800px;
+    margin: 0 auto;
+}

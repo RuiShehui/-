@@ -1,0 +1,159 @@
+.el-form {
+  ::v-deep .el-form-item {
+    width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 16px;
+    &.is-error {
+      margin-bottom: 40px;
+    }
+    .el-form-item__label {
+      padding-top: 7px;
+      padding-bottom: 7px;
+      color: rgba(0, 0, 0, 0.85);
+      line-height: 22px;
+      font-size: 14px;
+    }
+    .el-form-item__content {
+      line-height: 36px;
+    }
+    .el-form-item__error {
+      left: 12px;
+      line-height: 20px;
+    }
+  }
+
+  ::v-deep.el-input {
+    width: 320px;
+  }
+  ::v-deep.el-checkbox {
+    color: rgba(0, 0, 0, 0.85);
+    white-space: inherit;
+    padding-top: 0;
+    padding-left: 12px;
+    .el-checkbox__label {
+      max-width: 266px;
+      word-break: break-all;
+      padding: 9px 0 8px 8px;
+      vertical-align: top;
+    }
+    .el-checkbox__input.is-checked + .el-checkbox__label {
+      color: rgba(0, 0, 0, 0.85);
+    }
+  }
+}
+.m-selAccount {
+  position: relative;
+  p {
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.45);
+    letter-spacing: 0;
+    line-height: 20px;
+    span {
+      color: rgba(0, 0, 0, 0.65);
+    }
+  }
+  .m-selAccount-balance {
+    position: absolute;
+    left: 336px;
+    top: 10px;
+    width: 300px;
+
+    span {
+      position: absolute;
+      left: 0;
+      top: 50%;
+      transform: translateY(0);
+      line-height: 1;
+    }
+  }
+  .m-selAccount-name {
+    margin: 4px 0 0 12px;
+
+    span {
+      &.over-warn {
+        color: #f33;
+      }
+    }
+  }
+}
+.el-radio-group {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 12px;
+  ::v-deep .el-radio {
+    padding-top: 7px;
+    padding-bottom: 7px;
+    color: rgba(0, 0, 0, 0.85);
+    line-height: 22px;
+    margin-bottom: 8px;
+    &:last-child {
+      margin-bottom: 0;
+    }
+    .el-radio__label {
+      line-height: 22px;
+    }
+    .el-radio__input.is-checked + .el-radio__label {
+      color: rgba(0, 0, 0, 0.85);
+    }
+  }
+}
+@mixin account-span($top, $left) {
+  position: absolute;
+  line-height: 22px;
+  height: auto;
+  letter-spacing: 0;
+  top: $top;
+  left: 160px;
+  color: #f06b00;
+
+  span {
+    cursor: pointer;
+  }
+}
+// .accounts-btn {
+//   @include account-span(51px, 160px);
+// }
+.account-btn {
+  color: #f06b00;
+  margin-left: 10px;
+}
+.accountse-btn {
+  @include account-span(93px, 160px);
+}
+.m-amountStyle {
+  .m-amountStyle-one {
+    ::v-deep .el-input__inner {
+      width: 152px;
+    }
+    ::v-deep .el-input {
+      width: auto;
+    }
+  }
+  ::v-deep .m-amountStyle-two.el-form-item {
+    width: auto;
+    display: inline-block;
+    margin-bottom: 0;
+    &.is-error {
+      margin-bottom: 24px;
+    }
+    .el-input__inner {
+      width: 160px;
+      margin-left: 8px;
+    }
+    .el-form-item__error {
+      left: 20px;
+    }
+  }
+}
+::v-deep.el-date-editor .el-input__suffix {
+  height: 36px;
+}
+.divider {
+  margin-bottom: 20px;
+  padding-top: 8px;
+  &:nth-of-type(1) {
+    padding-top: 0;
+  }
+}

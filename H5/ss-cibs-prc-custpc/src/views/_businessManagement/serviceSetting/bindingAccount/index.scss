@@ -1,0 +1,109 @@
+.u-bindingAccount {
+    .u-color {
+        color: #f06b00;
+    }
+
+    .u-content {
+        display: flex;
+        margin-top: 24px;
+
+        >div {
+            width: 300px;
+            height: 110px;
+            position: relative;
+            background-color: #fff;
+            color: rgba(0, 0, 0, .45);
+            box-shadow: 0 4px 8px 0 rgba($color: #000000, $alpha: 0.2);
+            border-radius: 6px;
+            margin-right: 20px;
+        }
+
+        .u-phone {
+            .u-tag {
+                display: inline-block;
+                position: absolute;
+                text-align: center;
+                line-height: 21px;
+                top: 0;
+                right: 0;
+                width: 51px;
+                height: 21px;
+                border-radius: 3px;
+                color: rgba(0, 0, 0, .45);
+                background: rgba(0, 0, 0, .05);
+            }
+
+            .u-bgtag {
+                color: #f06b00;
+                background: rgba(240, 107, 0, .10);
+            }
+
+            .u-title {
+                display: flex;
+                margin-top: 14px;
+                font-size: 14px;
+                color: rgba(0, 0, 0, .85);
+
+                .u-divider {
+                    display: inline-block;
+                    width: 3px;
+                    height: 20px;
+                    background-color: #f06b00;
+                    margin-right: 19px;
+                }
+            }
+
+            .u-account {
+                margin-left: 19px;
+                margin-right: 19px;
+                padding: 10px 0 12px;
+                border-bottom: 1px solid rgba(0, 0, 0, .05);
+
+                .u-fcolor {
+                    padding-left: 10px;
+                    color: rgba(0, 0, 0, .85);
+                }
+            }
+
+            .u-btn {
+                text-align: center;
+
+                /deep/.u-gray {
+                    color: rgba(0, 0, 0, .45) !important;
+                }
+            }
+        }
+    }
+
+    .u-mt161 {
+        margin-top: 36px;
+    }
+
+    .u-inputInfo {
+        margin-top: 16px;
+    }
+
+    /deep/ .el-table .el-table__cell {
+        padding: 6px 0 !important;
+        height: 46px;
+        line-height: 32px;
+    }
+
+    .el-table /deep/.el-table__header /deep/.el-table__cell /deep/.cell,
+    .el-table .el-table__body /deep/.el-table__cell /deep/.cell {
+        margin-left: 18px;
+    }
+
+    .el-table tr {
+        background-color: #ffffff;
+    }
+
+    /deep/ .el-table td.el-table__cell div {
+        position: relative;
+        margin-left: 16px;
+    }
+}
+
+/deep/ .common-button .orange-w120 {
+    width: 160px;
+}

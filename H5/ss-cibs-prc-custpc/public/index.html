@@ -1,0 +1,68 @@
+<!--
+ * @Author: ZhangZhen
+ * @Date: 2022-02-10 10:01:41
+ * @LastEditTime: 2022-10-10 16:58:39
+ * @LastEditors: Please set LastEditors
+ * @Description: Zz's design
+ * @FilePath: \webbank-pc\public\index.html
+-->
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <link rel="icon" href="./favicon.ico">
+  <title>演示个人网银</title>
+  <% for (var i in (htmlWebpackPlugin.options.cdn && htmlWebpackPlugin.options.cdn.css)) { %>
+    <!-- <link rel="stylesheet" href="<%= htmlWebpackPlugin.options.css[i] %>" rel="preload" as="style" /> -->
+    <link rel="stylesheet" href="<%= htmlWebpackPlugin.options.css[i] %>" rel="stylesheet" />
+  <% } %>
+
+  <!-- 增量部署兼容ie -->
+  <!-- <script src="./js/bluebird.core.min.js"></script>  -->
+
+  <!-- 开启增量部署 -->
+  <!-- <script src="./js/system.min.js"></script> -->
+  <!-- <script>
+    window.systemjs = System;
+  </script> -->
+</head>
+
+<body>
+  <div id="app"></div>
+
+  <% for (var i in (htmlWebpackPlugin.options.cdn && htmlWebpackPlugin.options.cdn.js)) { %>
+    <script src="<%= htmlWebpackPlugin.options.cdn.js[i] %>"></script>
+  <% } %>
+
+  <script type="text/javascript" src="./js/crypto-js.js"></script>
+  <script type="text/javascript" src="./js/html2Canvas.min.js"></script>
+  <script type="text/javascript" src="./js/jsPdf.min.js"></script>
+  <script type="text/javascript" src="./js/xlsx.min.js"></script>
+  <script type="text/javascript" src="./js/E2EEJS/E2EE.js"></script>
+  <script type="text/javascript" src="./js/E2EEJS/base64.js"></script>
+  <script type="text/javascript" src="./js/E2EEJS/ErrorCheck.js"></script>
+  <script type="text/javascript" src="./js/E2EEJS/jsbn.js"></script>
+  <script type="text/javascript" src="./js/E2EEJS/md5.js"></script>
+  <script type="text/javascript" src="./js/E2EEJS/mode-ecb.js"></script>
+  <script type="text/javascript" src="./js/E2EEJS/pad-nopadding-min.js"></script>
+  <script type="text/javascript" src="./js/E2EEJS/pad-nopadding.js"></script>
+  <script type="text/javascript" src="./js/E2EEJS/pad-zeropadding-min.js"></script>
+  <script type="text/javascript" src="./js/E2EEJS/sha1.js"></script>
+  <script type="text/javascript" src="./js/E2EEJS/sha256.js"></script>
+  <script type="text/javascript" src="./js/E2EEJS/sjcl.js"></script>
+  <script type="text/javascript" src="./js/E2EEJS/tripledes.js"></script>
+  <script type="text/javascript" src="./js/E2EEJS/WPCommon.js"></script>
+
+  <script type="text/javascript" src="./e2ee/ec.js"></script>
+  <script type="text/javascript" src="./e2ee/jsbn.js"></script>
+  <script type="text/javascript" src="./e2ee/jsbn2.js"></script>
+  <script type="text/javascript" src="./e2ee/prng4.js"></script>
+  <script type="text/javascript" src="./e2ee/rng.js"></script>
+  <script type="text/javascript" src="./e2ee/sec.js"></script>
+  <!-- <script type="text/javascript" src="./js/jsencrypt.min.js"></script> -->
+</body>
+
+</html>

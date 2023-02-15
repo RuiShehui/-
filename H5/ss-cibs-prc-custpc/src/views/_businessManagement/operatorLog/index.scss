@@ -1,0 +1,115 @@
+.operatorLog {
+  // margin-top: 30px;
+   ::v-deep .el-form {
+      .el-select>.el-input {
+          width: 230px !important;
+      }
+
+      .el-icon-arrow-up{
+          position: relative;
+          top: -2px;
+          left: 5px;
+      }
+  }
+  /deep/.el-date-editor.el-input {
+      width: 230px !important;
+  }
+  .el-table {
+      margin-top: 24px;
+      .u-btnColor{
+          color: blue;
+      }
+  }
+   ::v-deep .el-dialog__footer {
+      display: flex;
+      justify-content: center;
+  }
+  /deep/.el-dialog__header {
+      background-color: rgba($color: #FEAF03, $alpha: 0.1);
+      padding: 12px 23px;
+      margin-bottom: 36px;
+      .el-dialog__title {
+          font-size: 14px;
+      }
+  }
+  /deep/ .el-cascader .el-input__suffix {
+    height: 38px;
+    right: 1px;
+    margin-top: 1px;
+    width: 40px;
+    background-color: transparent;
+    
+}
+  /deep/.el-cascader .el-input__suffix .el-icon-arrow-down {
+    
+    background: url("~@/images/common/xuanzekuang.png") no-repeat center transparent !important;
+    
+    content: '' !important;
+    -webkit-appearance: none;
+    background-size: 18px 18px !important;
+    z-index: 10;
+    margin-top: 11px;
+    margin-right: 5px;
+    transform: rotateZ(180deg);
+   
+}
+/deep/.el-cascader .el-input .el-icon-arrow-down.is-reverse{
+  transform: rotateZ(0deg);
+}
+  .authBox {
+      width: 900px;
+      height: 150px;
+      margin: 0 auto;
+      padding: 15px;
+      background-color: #f3f3f3;
+      .title {
+          text-align: center;
+          font-size: 18px;
+      }
+  }
+  .steps {
+      width: 940px;
+  }
+  .icon {
+      font-size: 14px;
+      color: #3070ff;
+      line-height: 36px;
+      margin-left: 24px;
+      cursor: pointer;
+  }
+  .el-icon-arrow-down{
+      position: relative;
+      top: 5px;
+      left: 8px;
+  }
+  .el-icon-arrow-up{
+      position: relative;
+      top: 3px !important 
+  }
+
+    /deep/ .el-table .el-table__cell{
+        
+            padding: 6px 0 !important; 
+        }
+        /deep/    .el-radio-group {
+            display: flex;
+            line-height: 1;
+            vertical-align: middle;
+            font-size: 0;
+        }
+ /deep/ .page{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 30px;
+  } 
+  .download{
+    margin: 10px 0 30px 40%;
+  }  
+  .line{
+    margin: 10px 10px;
+}
+}
+::v-deep .el-table td.el-table__cell div{
+    word-break: break-word;
+}

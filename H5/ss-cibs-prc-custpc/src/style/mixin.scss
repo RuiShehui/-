@@ -1,0 +1,32 @@
+// flex垂直布局
+@mixin flex-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+// flex默认布局
+@mixin flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin flex-start {
+  display: flex;
+  align-items: center;
+}
+
+@mixin flex-column-start {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@mixin text-overflow {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  word-break: break-all;
+}

@@ -1,0 +1,91 @@
+.u-table-btn {
+  color: #f06b00;
+  // margin-right: 5px;
+  cursor: pointer;
+  &:hover{
+    opacity: .9;
+  }
+}
+
+.left-line {
+    position: relative;
+    &::before {
+      position: absolute;
+      content: '';
+      left: -10px;
+      top: 11px;
+      width: 1px;
+      height: 12px;
+      background-color: #f0f0f0;
+    }
+}
+.s-fcolor {
+  color: #f23f47;
+  cursor: pointer;
+  &:hover{
+    color: #ff6b6e;
+  }
+  &:active{
+    color: #cc2b38;
+  }
+}
+
+/deep/.el-form-item {
+  margin-bottom: 20px;
+  .el-form-item__label {
+    padding-top: 7px;
+    padding-bottom: 7px;
+    color: rgba(0, 0, 0, 0.85);
+    line-height: 22px;
+    font-size: 14px;
+  }
+  .el-form-item__content {
+    line-height: 36px;
+  }
+}
+
+/deep/.el-table{
+  &::before {
+    height: 0;
+  } 
+  .el-table__fixed-right::before{
+    height: 0;
+  }
+  .el-table__cell{
+    border-bottom: none;
+    .cell{
+      padding-left: 24px !important;
+      padding-right: 24px !important;
+      .el-button + .el-button {
+        margin-left: 16px;
+      }
+    }
+  }
+  
+}
+.u-expandBtn{
+  display: inline-block;
+  line-height: 22px;
+  color: #4181fa;
+  margin-left: 5px;
+  font-size: 14px;
+  cursor: pointer;
+  .el-icon-expand{
+    width: 14px;
+    height: 14px;
+    background-image: url("~@/images/common/jiantou_chaxunzhankai.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0 2px;
+  }
+  .el-icon-put-away{
+    width: 14px;
+    height: 14px;
+    background-image: url("~@/images/common/jiantou_chaxunshouqi.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0 2px;
+  }
+}
+
+

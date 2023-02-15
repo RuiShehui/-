@@ -1,0 +1,100 @@
+/*
+ * @Author: your name
+ * @Date: 2022-09-28 21:14:09
+ * @LastEditTime: 2022-10-10 19:31:49
+ * @LastEditors: your name
+ * @Description: In User Settings Edit
+ * @FilePath: \ss-cibs-prc-custpc\src\i18n\home\zh.js
+ */
+export default {
+	"NOTIFICATION":{
+		"ALL":"全部",
+		"UNREAD":"未读",
+		"NOTIFICATION":"通知",
+		"REMINDER_NOTIFICATION":"提示通知",
+		"TIME_OF_RECEIPT":"接收时间",
+		"CLEAR_UNREAD":"清除未读"
+	},
+	"DRAFT_TRANSACTION":{
+		"UPLOAD_METHOD":"上载方式",
+		"MANUAL_INPUT":"手动输入",
+		"FILE_UPLOAD":"档案上载",
+		"TEMPORARY_STORAGE_TIME":"暂存时间"
+	},
+	"NOTICE":{
+		"GO_TO_CHECK":"去查看",
+		"VIEW_APPROVAL_RESULTS":"查看审批结果",
+		"ENQUIRY":"查询",
+		"DETAILS":"详情",
+		"OPERATE":"操作",
+		"NUMBERING":"参考编号",
+		"ANNOUNCEMENT_DETAILS":"通知详情",
+		"RESET":"重设",
+		"SERIAL_NUMBER":"序号",
+		"PLEASE_ENTER":"请输入公告标题",
+		"RELEASE_DATE":"发布日期",
+		"ANNOUNCEMENT_TITLE":"公告标题",
+		"RELEASE_TIME":"发布时间",
+		"TITLE":"标题",
+		"KNOW_IT":"我知道了",
+		"BUSINESS_MESSAGE":"业务消息"
+	},
+	"MANAGEMENT":{
+		"COMPLETE":"完成",
+		"COMMONLY_USE":"最多可增加5个常用功能",
+		"CANCEL":"取消",
+		"SELECTED_FUNCTION":"已选功能",
+		"SHORTCUT_MENU_MANAGEMENT":"快捷选单管理"
+	},
+	"Tasks":{
+		"SUBMISSION_TIME":"提交时间",
+		"NUMBER":"序号",
+		"UPCOMING_TASKS":"待办事项", 
+		"REFERENCE_NUMBER":"参考编号",
+		"PRESENTOR":"提交人",
+		"TRANSACTION_TYPE":"交易类别"
+	},
+	"TRANSCTIONS":{
+		"MORE":"更多",
+		"RECENT_TRANSFER":"最近转账",
+		"TOTAL_OF_RECORDS":"总笔数"
+	},
+	"HOME":{
+		"RIGHTS_RESERVED":"©2022 演示银行有限公司。版权所有。",
+		"MY_SETTING":"个人设定",
+		"SAVINGS_DEPOSIT":"往来/储蓄存款",
+		"STOCK_ACCOUNT":"2.股票托管账户结余为T-1日市值。",
+		"SHORTCUT_FUNCTION":"快捷选单",
+		"MY_SETTINGS":"设置",
+		"SUCCESSFUL_LOGON":"最近一次成功登入：%{time}",
+		"INFORMATION_COLLECTION_STATEMENT":"收集个人资料声明",
+		"WELCOME_BACK":"%{userName}您好! 欢迎回来！",
+		"PERSONAL_INTERNET_BANKING":"您确定退出个人网上银行？",
+		"REMIND_ME":"30天后提醒我",
+		"CHANGE_NOW":"立即修改",
+		"DEPOSIT":"定期存款",
+		"CASA_DEPOSIT":"储蓄/往来存款",
+		"IMPORTANT_STATEMENT":"重要声明",
+		"DRAFT_TRANSACTION":"拟订交易",
+		"INVSET":"投资",
+		"UPCOMING_TASKS":"待办事项",
+		"AUTOMATICALLY_LOGGED_OFF":"您已长时间未有操作个人网上银行系统，为保障用户安全，您将于30秒后自动退出。",
+		"MESSAGE_NOTIFICATION":"提示通知",
+		"ANNOUNCEMENT_NOTICE":"通知",
+		"RECENT_TRANSFER":"最近转账",
+		"SAFE_LOGONOUT":"登出",
+		"ASSET_VIEW":"资产视图（港元）",
+		"TERMS_OF_SERVICE":"服务章则",
+		"PASSWORD_IMMEDIATELY":"您的登入密码已长时间未被修改，为保障您的账户安全，请立即修改密码。",
+		"MORE":"更多",
+		"LOG_OFF_NOW":"登出",
+		"PRIVACY_POLICY_ATEMENT":"隐私政策声明",
+		"INVESTMENT":"1.“投资”包含投资账户和股票托管账户结余。",
+		"LOGOUT_SUCCESSFUL":"成功退出",
+		"ELECTRONIC_BILLING":"电子账单章则",
+		"TOTAL_ASSETS":"资产总额（港元）",
+		"TOTAL_NUMBER":"条",
+		"MANUAL_ENTER":"手动输入",
+		"FILE_UPLOAD":"档案上载"
+	}
+}

@@ -1,0 +1,63 @@
+.tradingTips {
+  /deep/.el-form {
+    margin-left: 96px;
+    margin-top: 27px;
+
+    .el-form-item {
+      margin-bottom: 23px;
+
+      .el-input {
+        width: 320px;
+        margin-right: 16px;
+      }
+    }
+
+    .btnadd {
+      .white-w160 {
+        width: 100%;
+        span {
+          padding: 0 10px;
+        }
+      }
+
+    }
+
+    .moneyInput {
+      .el-input__inner {
+        width: 160px;
+      }
+    }
+
+    .moneyClass {
+      margin-bottom: 24px;
+
+      .el-form-item__content {
+        display: flex;
+        align-items: center;
+      }
+    }
+
+    .u-email {
+      .el-form-item__content {
+        display: flex;
+        align-items: center;
+      }
+    }
+
+    .u-tips {
+      margin-top: 10px;
+
+      .el-form-item__content {
+        // display: flex;
+        align-items: center;
+        // display: grid
+        display: table-caption;
+        margin-left: 0 !important;
+      }
+
+      .el-checkbox {
+        display: flex;
+      }
+    }
+  }
+}

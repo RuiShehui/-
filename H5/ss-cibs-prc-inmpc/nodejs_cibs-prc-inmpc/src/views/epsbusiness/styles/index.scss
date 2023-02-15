@@ -1,0 +1,87 @@
+.contain {
+  min-width: 600px;
+  padding: 32px 24px;
+  background: #ffffff;
+  box-sizing: border-box;
+  min-height: 100%;
+  position: relative;
+}
+
+.contain .g-menu {
+  width: 100%;
+}
+.article {
+  position: absolute;
+  bottom: 32px;
+  left: 24px;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.45);
+  .note {
+    color: rgba(0, 0, 0, 0.85);
+  }
+}
+.contain .g-menu .op-btn {
+  border: 1px solid #f06b00;
+  color: #f06b00;
+  font-size: 16px;
+  width: 90px;
+  height: 40px;
+}
+
+.g-table {
+  margin-top: 40px;
+}
+
+.g-empty {
+  img {
+    width: 261px;
+    height: 277px;
+  }
+
+  span {
+    position: absolute;
+    bottom: 15%;
+    left: 45%;
+  }
+}
+
+.g-link-text {
+  color: #4181FA;
+  cursor: pointer;
+}
+
+.g-footer {
+  width: 100%;
+  text-align: right;
+  margin-top: 40px;
+  margin-bottom: 50px;
+}
+.f-span-btns {
+  width: 100%;
+  color: #e34141;
+  display: flex;
+  span {
+    display: inline-block;
+    cursor: pointer;
+  }
+  span:nth-of-type(2) {
+    color: #f06b00;
+    margin-left: 10px;
+  }
+}
+.g-op-btn {
+  position: relative;
+  right: 23px;
+  color: #606266;
+  &.edit-btn {
+    color: #f06b00;
+  }
+  &.delete-btn {
+    color: #e34141;
+  }
+  &.detail-btn {
+    text-align: left;
+    right: 5px;
+    text-decoration: underline;
+  }
+}

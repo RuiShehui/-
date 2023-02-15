@@ -1,0 +1,206 @@
+.g-remittance-transferInfo {
+  overflow-x: hidden;
+  .m-flex-radio {
+    .el-radio-group {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+
+      ::v-deep .el-radio {
+        padding-top: 7px;
+        padding-bottom: 7px;
+        color: rgba(0, 0, 0, 0.85);
+        line-height: 22px;
+        margin-bottom: 8px;
+
+        &:last-child {
+          margin-bottom: 0;
+        }
+
+        .el-radio__label {
+          line-height: 22px;
+        }
+
+        .el-radio__input.is-checked+.el-radio__label {
+          color: rgba(0, 0, 0, 0.85);
+        }
+      }
+    }
+  }
+
+  .el-radio-group {
+    padding-left: 12px;
+  }
+
+  @mixin acctBtn() {
+    // position: absolute;
+    // line-height: 22px;
+    // height: auto;
+    // letter-spacing: 0;
+    // left: 160px;
+    color: #f06b00;
+    cursor: pointer;
+    margin-left: 5px;
+  }
+
+  .accounts-btn {
+    @include acctBtn;
+    top: 8px;
+  }
+
+  .accountse-btn {
+    @include acctBtn;
+    bottom: 7px;
+  }
+
+  .el-form-item {
+    width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 16px;
+
+    &.is-error {
+      margin-bottom: 40px;
+    }
+
+    .el-form-item__label {
+      padding-top: 7px;
+      padding-bottom: 7px;
+      color: rgba(0, 0, 0, 0.85);
+      line-height: 22px;
+      font-size: 14px;
+    }
+
+    .el-form-item__content {
+      line-height: 36px;
+    }
+
+    ::v-deep .el-input {
+      width: 320px;
+    }
+
+    .el-form-item__error {
+      left: 12px;
+      line-height: 20px;
+    }
+
+    .el-checkbox {
+      color: rgba(0, 0, 0, 0.85);
+      white-space: inherit;
+      padding-left: 12px;
+      padding-top: 0;
+
+      .el-checkbox__label {
+        max-width: 266px;
+        word-break: break-all;
+        padding: 9px 0 8px 13px;
+        vertical-align: top;
+      }
+    }
+  }
+
+  .m-amountStyle {
+    ::v-deep .m-amountStyle-one {
+      .el-input {
+        width: auto;
+
+        .el-input__inner {
+          width: 152px;
+
+          &input {
+
+            &:-ms-input-placeholder,
+            &::-moz-placeholder,
+            &::-webkit-input-placeholder {
+              color: rgba(0, 0, 0, 0.85);
+            }
+          }
+        }
+      }
+    }
+
+    ::v-deep .m-amountStyle-two.el-form-item {
+      width: auto;
+      display: inline-block;
+      margin-bottom: 0;
+
+      &.is-error {
+        margin-bottom: 24px;
+      }
+
+      .el-input {
+        width: 160px;
+
+        .el-input__inner {
+          width: 160px;
+          margin-left: 8px;
+        }
+      }
+
+      .el-form-item__error {
+        left: 20px;
+      }
+    }
+  }
+
+  .m-selAccount {
+    position: relative;
+
+    p {
+      font-size: 12px;
+      color: rgba(0, 0, 0, 0.45);
+      letter-spacing: 0;
+      line-height: 20px;
+
+      span {
+        color: rgba(0, 0, 0, 0.65);
+      }
+    }
+
+    .m-selAccount-balance {
+      position: absolute;
+      left: 336px;
+      top: 10px;
+      width: 500px;
+    }
+
+    .m-selAccount-name {
+      margin: 4px 0 0 12px;
+    }
+
+    ::v-deep .el-input {
+      width: 320px;
+    }
+  }
+
+  .divider {
+    margin-bottom: 20px;
+    padding-top: 8px;
+
+    &:nth-of-type(1) {
+      padding-top: 0;
+    }
+  }
+
+  .radio-form-group {
+    width: 100%;
+    .radio-form-item {
+      min-width: 650px;
+      position: relative;
+      right: 115px;
+      ::v-deep .el-form-item__error {
+        left: 25% !important;
+      }
+      &.long {
+        position: relative;
+        right: 7px;
+        ::v-deep .el-form-item__error {
+          left: 187px !important;
+        }
+        ::v-deep .el-form-item__content{
+          margin-left:0px !important;
+        }
+      }
+    }
+  }
+}

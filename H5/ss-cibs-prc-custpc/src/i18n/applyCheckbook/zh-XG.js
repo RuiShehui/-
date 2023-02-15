@@ -1,0 +1,35 @@
+export default {
+	"HEAD":{
+		"Surface_mail":"快遞郵寄",
+		"Steps":[
+			{
+				"title":"填寫資訊"
+			},
+			{
+				"title":"確認資訊"
+			},
+			{
+				"title":"提交結果"
+			}
+		],
+		"Delivery_method":"領取方式",
+		"Reminder":"提示人",
+		"A_level":"A級",
+		"Next":"下一步",
+		"C_level":"C級",
+		"Current_account":"往來賬戶",
+		"Send_reminder":"（系統將向授權人發送一封待授權提醒電子郵件）",
+		"Reset":"重設",
+		"Autrization_reminder":"授權提醒",
+		"B_level":"B級",
+		"Payer_iPayer":"申請資訊",
+		"AUTHORISATION_PROGRESS":"請前往授權中心查看授權進度",
+		"Back":"返回"
+	},
+	"TIPS":{
+		"Tips_two":"2.成功申請將收到短訊或信件通知。如閣下於14日內仍未收到支票簿，請於辦公時間內與本行客戶服務代表聯絡。",
+		"Tips_three":"3.每次申請將會獲得壹本支票簿。",
+		"Tips_one":"1.支票簿將以平郵（本港丶澳門及中國(台灣除外)地址）或空郵形式（台灣或海外地址）寄出，郵寄地址為上述往來戶口於本行記錄之通訊地址。",
+		"Tips":"溫馨提示"
+	}
+}

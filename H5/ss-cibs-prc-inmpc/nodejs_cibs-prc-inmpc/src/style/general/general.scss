@@ -1,0 +1,18 @@
+@charset 'utf-8';
+
+$bg-color: #ccc;
+$border: 1px solid #ccc;
+$bg-text: white;
+$btn-wid: 80px;
+
+@mixin dualBtnBar {       
+    margin: auto;
+    margin-top: 40px;
+    width: 190px;
+    .btn {
+        width: $btn-wid;
+        &:first-child {
+            margin-right: 20px;
+        }
+    }    
+}

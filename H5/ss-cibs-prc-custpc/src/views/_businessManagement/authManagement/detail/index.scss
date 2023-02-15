@@ -1,0 +1,20 @@
+.u-detail {
+    .u-temSet {
+        margin: 0 0 24px 0;
+    }
+    .divider{
+        margin: 0 0 24px;
+    }
+    .detailItem{
+        margin-bottom: 24px;
+    }
+    .u-content {
+        width: 940px;
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 64px;
+        .detailItem:not(:last-child) {
+            margin-bottom: 16px;
+        }
+    }
+}

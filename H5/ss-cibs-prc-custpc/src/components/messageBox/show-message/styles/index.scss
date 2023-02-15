@@ -1,0 +1,109 @@
+$icon-success: #00dd88;
+$icon-error: #dd2222;
+$icon-info: #0099dd;
+$icon-warn: #f06b00;
+
+.message-wrapper {
+  width: 100%;
+  height: 100%;
+  z-index: 100;
+
+  .message-inner {
+    min-width: 250px;
+    max-width: 500px;
+    padding: 12px 0;
+    line-height: 0.5;
+    box-shadow: 1px 0px 3px #333;
+    box-sizing: border-box;
+    background-color: #fff;
+    z-index: 200;
+    border-radius: 3px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    // overflow: auto;
+
+    .icon {
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 9999;
+      &.message-icon {
+        height: 16px;
+        width: 16px;
+        text-align: center;
+        line-height: 16px;
+        background-color: #fff;
+        color: #666;
+      }
+
+      @mixin designIcon($bgColor) {
+        color: #fff;
+        background-color: $bgColor;
+      }
+
+      &.message-icon-success {
+        @include designIcon($icon-success);
+      }
+      &.message-icon-error {
+        @include designIcon($icon-error);
+      }
+      &.message-icon-warn {
+        @include designIcon($icon-warn);
+      }
+      &.message-icon-info {
+        @include designIcon($icon-info);
+      }
+    }
+
+    .message-tip-img {
+      position: absolute;
+      top: 50%;
+      left: 8px;
+      transform: translateY(-50%);
+      width: 16px;
+      height: 16px;
+    }
+
+    .message-content {
+      color: #666;
+      font-size: 16px;
+      position: relative;
+      left: 13%;
+      line-height: 1;
+      width: 300px;
+      overflow-x: auto;
+      // left: 15%;
+      // top: 50%;
+      // transform: translateY(-50%);
+    }
+
+    .close-message-tag {
+      height: 16px;
+      width: 16px;
+      line-height: 16px;
+      font-size: 18px;
+      text-align: center;
+      position: absolute;
+      cursor: pointer;
+      top: 50%;
+      right: 8px;
+      transform: translateY(-50%);
+      border: 1px solid $icon-info;
+      color: $icon-info;
+      &.success-tag {
+        border: 1px solid $icon-success;
+        color: $icon-success;
+      }
+      &.error-tag {
+        border: 1px solid $icon-error;
+        color: $icon-error;
+      }
+      &.warn-tag {
+        border: 1px solid $icon-warn;
+        color: $icon-warn;
+      }
+    }
+  }
+}

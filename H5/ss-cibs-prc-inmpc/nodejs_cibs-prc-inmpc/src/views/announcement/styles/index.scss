@@ -1,0 +1,99 @@
+.contain {
+  min-width: 600px;
+  min-height: 100%;
+  padding: 32px 24px;
+  box-sizing: border-box;
+  background: #fff;
+}
+.transverse-form {
+  display: flex;
+  flex-wrap: wrap;
+  .el-form-item {
+    display: flex;
+    margin-right: 40px;
+    ::v-deep .el-form-item__content {
+      margin-left: 0px !important;
+    }
+  }
+}
+.g-menu-btn {
+  font-size: 16px;
+  width: 90px;
+  border-radius: 4px;
+  &.add {
+    border: 1px solid #f06b00;
+    color: #f06b00;
+    margin-left: 16px;
+    &:hover {
+      opacity: .8;
+    }
+  }
+  &.reset {
+    margin-left: 16px;
+    color: rgba(0, 0, 0, 0.45);
+    border-color: rgba(0, 0, 0, 0.45);
+  }
+}
+.g-w-120 {
+  width: 140px;
+}
+.g-p-20{
+  width: 20px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.g-w-270 {
+  width: 300px;
+}
+
+
+.g-table {
+  // padding: 0 20px;
+  // margin: 0 20px;
+  // width: 1--
+}
+
+.g-empty {
+  img {
+    width: 261px;
+    height: 277px;
+  }
+
+  span {
+    position: absolute;
+    bottom: 15%;
+    left: 45%;
+  }
+}
+
+.g-pagination-area {
+  width: 100%;
+  text-align: right;
+  margin-top: 1.2rem;
+  padding: .5rem 0;
+}
+
+.g-btn-group {
+  min-width: 360px;
+}
+
+.g-op-btn {
+  color: #606266;
+  cursor: pointer;
+
+  &.add-btn {
+    color: #f06b00;
+  }
+
+  &.delete-btn {
+    color: #e34141;
+  }
+
+  &.detail-btn {
+    text-align: left;
+    text-decoration: none;
+    color: #4181fa;
+  }
+}

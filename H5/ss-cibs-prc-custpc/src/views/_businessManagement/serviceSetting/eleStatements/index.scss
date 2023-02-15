@@ -1,0 +1,30 @@
+.eleStatements {
+    .formW_540 {
+        width: 540px;
+        margin: 0 auto 24px;
+    }
+
+    .u-mt142 {
+        margin-top: 0;
+    }
+
+    .u-tips {
+        // margin-top: 238px;
+        margin-left: 24px;
+
+        // position: absolute;
+        // bottom: 0px;
+        .u-title {
+            font-size: 14px;
+            color: rgba($color: #000000, $alpha: 0.85);
+            font-weight: 400;
+        }
+
+        .u-content {
+            margin-top: 16px;
+            font-size: 14px;
+            color: rgba($color: #000000, $alpha: 0.45);
+            font-weight: 400;
+        }
+    }
+}

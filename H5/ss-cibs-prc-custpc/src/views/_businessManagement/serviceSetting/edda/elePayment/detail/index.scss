@@ -1,0 +1,43 @@
+.detail {
+    .detail_title {
+        width: 68px;
+        font-size: 18px;
+        font-weight: 500;
+        text-align: center;
+        color: #f06b00;
+         
+        letter-spacing: 0;
+        margin-bottom: 20px;
+    }
+
+    .line1 {
+        width: 1068px;
+        height: 1px;
+        background: rgba(240, 240, 240, 1);
+    }
+
+    .line2 {
+        width: 68px;
+        height: 3px;
+        background: #f06b00;
+    }
+
+    .confirmContent {
+        width: 940px;
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 64px;
+
+        .detailItem:not(:last-child) {
+            margin-bottom: 16px;
+        }
+    }
+
+    /deep/ .prompt-box {
+        margin: 0 !important;
+    }
+
+    /deep/ .detailItem .itemContent .itemRight {
+        margin-left: 24px;
+    }
+}

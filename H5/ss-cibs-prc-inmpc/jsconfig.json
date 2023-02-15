@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    // "emitDecoratorMetadata": true,
+    // "experimentalDecorators": true,
+    "target": "es2015",
+    "module": "es2015",
+    "strict": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["nodejs_cibs-prc-inmpc/src/*"]
+    },
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true
+  },
+  "exclude": ["node_modules", "build", "dist"],
+  "include": [
+    "nodejs_cibs-prc-inmpc/src/*.js",
+    "nodejs_cibs-prc-inmpc/src/*.jsx",
+    "nodejs_cibs-prc-inmpc/src/*.vue",
+    "nodejs_cibs-prc-inmpc/src/*.ts",
+    "nodejs_cibs-prc-inmpc/src/*.d.ts",
+    "nodejs_cibs-prc-inmpc/src/*.tsx"
+  ],
+  "alwaysStrict": true
+}

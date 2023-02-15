@@ -1,0 +1,56 @@
+.u-addTemplateWapper {
+
+    // margin-top: 24px;
+    .u-addTemSet {
+        .u-formClass {
+            width: 404px;
+            margin: 0 auto;
+
+            /deep/.el-input {
+                width: 320px;
+                height: 36px;
+            }
+        }
+    }
+
+    /deep/.el-table {
+        .el-input {
+            width: 180px;
+
+            .el-input__inner {
+                height: 28px !important;
+            }
+        }
+    }
+
+    .divider {
+        margin: 0 0 20px;
+    }
+
+    .u-mt32 {
+        margin-top: 32px;
+    }
+
+    /deep/ .el-table .el-table__cell {
+        // padding: 6px 0 !important; 
+    }
+
+    /deep/ .el-table .el-table__cell {
+        padding: 6px 0 !important;
+        height: 46px;
+        line-height: 32px;
+    }
+
+    .el-table /deep/.el-table__header /deep/.el-table__cell /deep/.cell,
+    .el-table .el-table__body /deep/.el-table__cell /deep/.cell {
+        // margin-left: 18px;
+    }
+
+    .el-table tr {
+        background-color: #ffffff;
+    }
+
+    /deep/ .el-table td.el-table__cell div {
+        margin-left: 6px;
+    }
+}

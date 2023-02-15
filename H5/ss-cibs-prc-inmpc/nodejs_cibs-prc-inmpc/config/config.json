@@ -1,0 +1,41 @@
+{   
+    "serve":{
+      "port": 7009,
+      "mockPort": 7008,
+      "publicPath":"./"
+    },
+    "dataSource": {
+        "base": "/v1/ds",
+        "proxy": [
+            {
+                "name": "AFA 测试连接",
+                "source": "/afa",
+                "target": "https://afa-api.awebide.com",
+                "changeOrigin": true,
+                "pathRewrite": {
+                    "v1/ds/afa": ""
+                },
+                "logLevel": "debug"
+            },
+            {
+                "name": "Excel 测试连接",
+                "source": "/excel",
+                "target": "http://localhost:10240",
+                "changeOrigin": true,
+                "pathRewrite": {
+                    "v1/ds/": ""
+                },
+                "logLevel": "debug"
+            },{
+                "name": "招行内容管理",
+                "source": "/cmbcms",
+                "target": "http://192.168.0.38:8086",
+                "changeOrigin": true,
+                "pathRewrite": {
+                    "v1/ds/cmbcms": ""
+                },
+                "logLevel": "debug"
+            }
+        ]
+    }
+}

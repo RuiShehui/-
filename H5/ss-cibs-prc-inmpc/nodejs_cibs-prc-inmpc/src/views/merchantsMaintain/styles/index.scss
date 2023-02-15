@@ -1,0 +1,54 @@
+.g-merchantsMaintain {
+  background: #fff;
+  min-height: 100%;
+  padding: 32px 24px;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.g-form {
+  // padding: 20px;
+  display: inline-flex;
+  justify-content: space-between;
+}
+
+.g-op-btn {
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.delete {
+  color: #e34141;
+}
+
+.modify {
+  color: #f06b00;
+}
+
+.u-Pagination {
+  margin-right: 20px;
+  flex: 1;
+  text-align: right;
+}
+
+.g-pagination-area {
+  width: 100%;
+  text-align: right;
+  margin-top: 40px;
+  margin-bottom: 50px;
+}
+
+.g-link-text {
+  color: #4181FA;
+  cursor: pointer;
+}
+.article {
+  position: absolute;
+  bottom: 32px;
+  left: 24px;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.45);
+  .note {
+    color: rgba(0, 0, 0, 0.85);
+  }
+}
